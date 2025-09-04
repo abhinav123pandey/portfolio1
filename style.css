@@ -335,15 +335,22 @@ body::before {
 
 /* Certificates */
 .certificate-img{
-    height: 200px;
+    height: 300px;
     width: 100%;
     background: linear-gradient(45deg, #2c2c2c, #3a3a3a);
     position: relative;
     overflow: hidden;
 }
 .certificate-img img{
-    height: 200px;
+    height: inherit;
     width: inherit;
+}
+
+.certificate-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2.5rem;
+    margin-top: 3rem;
 }
 /* Contact Section */
 .contact {
