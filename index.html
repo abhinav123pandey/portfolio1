@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- Header -->
+  <header class="header">
+    <h1 class="logo">Archive</h1>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#Certificates">Certificates</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hi, I'm <span class="highlight">Abhinav Pandey</span></h2>
+    <p>I am pursuing B.Tech in Computer Science Engineering from GLA University, Mathura. I am a MERN Stack developer with various projects. I have solved 200+ questions on different plateforms(eg: LeetCode, GeeksForGeeks etc.)</p>
+    <a href="#projects" class="hero-btn">View My Work</a>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img"><img src="assests/image1.png" alt="citizen-services" width="470px"></div>
+        <div class="project-content">
+          <h3>Citizen Services</h3>
+          <p>A plateform for student to keep notify them with the government and private hacathons and internship oppotunities.</p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            
+          </div>
+          <a href="https://citizen-services.vercel.app/" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img"><img src="assests/image2.png" alt="byte-mart" width="470px"></div>
+        <div class="project-content">
+          <h3>ByteMart</h3>
+          <p>A E-commerce Website, provides an overview of key metrics and analytics to help you manage your business effectively. Monitor sales, user activity, and order statuses all in one place.</p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node.js</span>
+          </div>
+          <a href="https://byte-mart-8gsj.vercel.app/" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-video"><video src="assests/video.mp4" class="video" autoplay loop muted></video></div>
+        <div class="project-content">
+          <h3>Ashwini Astrology</h3>
+          <p>An Astrological website designed for helping the people with different problems related to Astrology.</p>
+          <div class="project-tags">
+            <span>Wordpress</span>
+            
+          </div>
+          <a href="https://ptashwinitiwari.com" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Certificates -->
+ <section id="Certificates" class="projects">
+    <h2>Certificates</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="certificate-img"><img src="assests/java.png"></div>
+        <div class="project-content">
+          <h3>Java Programming</h3> 
+      </div>
+      <div class="project-card">
+        <div class="certificate-img"><img src="assests/C.png" ></div>
+        <div class="project-content">
+          <h3>C Programming</h3>
+          
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="certificate-img"><img src="assests/JOVAC.png" ></video></div>
+        <div class="project-content">
+          <h3>Flutter Developmet- JOVAC</h3>
+          </div>
+      </div>
+      <div class="project-card">
+        <div class="certificate-img"><img src="assests/nation-building.png" ></video></div>
+        <div class="project-content">
+          <h3>Nation Building</h3>
+          </div>
+      </div>
+      <div class="project-card">
+        <div class="certificate-img"><img src="assests/NPTEL(environment).png" ></video></div>
+        <div class="project-content">
+          <h3>NPTEL- Introduction To Environmental Enginnering</h3>
+          </div> 
+      </div>
+      <div class="project-card">
+        <div class="certificate-img"><img src="assests/workshop.png" ></video></div>
+        <div class="project-content">
+          <h3>AI Workshop</h3>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" required>
+          <label for="name">Your Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" required>
+          <label for="email">Your Email</label>
+        </div>
+        <div class="form-group">
+          <textarea id="message" required></textarea>
+          <label for="message">Message</label>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div>By Abhinav Pandey</div>
+    <p>© 2025 Archive. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
